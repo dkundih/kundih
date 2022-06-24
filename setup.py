@@ -26,32 +26,35 @@ classifiers = [
     'Topic :: Office/Business :: Financial :: Investment',
     'Topic :: Office/Business :: Financial :: Accounting',
     'Topic :: Office/Business :: Financial :: Point-Of-Sale',
-    'Topic :: Office/Business :: Financial :: Spreadsheet'
+    'Topic :: Office/Business :: Financial :: Spreadsheet',
 ]
  
-#import current duality version. 
-from logistics.misc._meta import __version__
+# import current vandal version.
+from kundih.misc._meta import __version__
 
 setup(
-  name = 'logistics',
+  name = 'kundih',
   version = __version__,
-  description = 'Vandal framework logistics library.',
+  description = 'Library of Python projects by David Kundih.',
   long_description_content_type = 'text/markdown',
   long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(), 
   author = 'David Kundih',
   author_email = 'kundihdavid@gmail.com',
   maintainer = 'David Kundih',
   maintainer_email = 'kundihdavid@gmail.com',
-  url = 'http://github.com/dkundih/unin',
-  download_url = f'https://github.com/dkundih/unin/archive/refs/tags/v{__version__}.tar.gz',
-  license = 'Apache Software License', 
+  url = 'http://github.com/dkundih/vandal',
+  download_url = f'https://github.com/dkundih/vandal/archive/refs/tags/v{__version__}.tar.gz',
+  license = 'Apache Software License',
   project_urls = {
-    'Documentation': 'https://github.com/dkundih/unin/blob/master/README.md',
-    'Source Code': 'https://github.com/dkundih/unin/tree/master/unin'
-  },
+    'Documentation': 'https://github.com/dkundih/vandal/blob/master/README.md',
+    'Source Code': 'https://github.com/dkundih/vandal/tree/master/vandal'
+  }, 
   classifiers = classifiers,
-  keywords = 'data science, machine learning, data manipulation, artificial intelligence, logistics, AI, unin, vandal, vandal-py, vandal.py, duality, duality-py, duality.py',
+  keywords = 'data science, machine learning, data manipulation, artificial intelligence, AI, unin, duality, duality-py, duality.py, vandal, vandal-py, vandal.py',
   packages = find_packages(),
   install_requires = [
+    'logistics >= 0.0.7',
+    'vandal >= 3.8.5',
+    'duality >= 4.7.9',
 ]
   )

@@ -1,5 +1,5 @@
-#import all relevant contents from the associated module.
-from logistics.misc._meta import (
+# import all relevant contents from the associated module.
+from kundih.misc._meta import (
     __author__,
     __copyright__,
     __credits__,
@@ -8,9 +8,10 @@ from logistics.misc._meta import (
     __documentation__,
     __contact__,
     __donate__,
+    __APPversion__,
 )
 
-#all relevant contents.
+# all relevant contents.
 __all__ = [
     __author__,
     __copyright__,
@@ -20,4 +21,5 @@ __all__ = [
     __documentation__,
     __contact__,
     __donate__,
+    __APPversion__,
 ]
