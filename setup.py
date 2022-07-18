@@ -56,5 +56,9 @@ setup(
     'logistics >= 0.0.7',
     'vandal >= 3.8.5',
     'duality >= 4.7.9',
+    'sklearn',
+    'matplotlib',
+    'pandas',
+    'numpy',
 ]
   )
