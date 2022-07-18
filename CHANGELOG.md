@@ -23,3 +23,6 @@ CHANGELOG
 
 0.0.7 (07/07/2022)
 - MonteCarlo added.
+
+0.0.8 (18/07/2022)
+- warning of deprecation added.

@@ -30,3 +30,9 @@ from kundih.objects.kmeans import KSrednjeVrijednosti
 from kundih.objects.dijkstra import Dijkstra
 from kundih.objects.linreg import LinearnaRegresija
 from kundih.objects.montecarlo import MonteCarlo
+
+if __name__ == '__main__':
+    import importlib
+    importlib.import_module('kundih')
+    print('UPOZORENJE: Ova biblioteka kreirana je samo za potrebe izrade diplomskog rada sa značajkama na hrvatskom jeziku i kao takva je sadržana u verziji 0.0.7, nakon čega se koristi za ostale namjene definirane u README datoteci.')
+    print('WARNING: This library is created for the sole purpose of translating particles into the croatian language and as such it is contained in the 0.0.7 version, after which it is being used for other purposes defined in the README file.')
