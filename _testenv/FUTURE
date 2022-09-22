@@ -1,1 +1,7 @@
-TBD.
+ID_KUNDIHIMPORT:1
+________________
+Import of kundih package particles to vandal.
+
+ID_DUALITYAPPS:1
+________________
+DualityApp will serve as a framework for various application creation and development (vandal and kundih library particles.) and maybe pandas/sqlite3 database manipulation.
